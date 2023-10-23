@@ -1,0 +1,14 @@
+-- pls donate autofarm
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua'))()
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Loaded PLS Donate AutoFarm (autoserver hop enabled)";
+ Text = "Loaded the PLS donate AutoFarm script (autoserverhop is enabled btw)";
+ Icon = "";
+ Duration = 5;
+ Button1 = "Okay";
+ Button2 = "Idrc";
+ Callback = NotificationBindable;
+})
+print("Loaded Script")
+-- Loaded the PLS Donate Autofarm Script
+
